@@ -1,0 +1,109 @@
+.loading {
+    background-color: var(--color-mgrey-300);
+    animation: background-loading-gradient 0.9s ease-in-out infinite alternate;
+  }
+
+  .loading > * {
+    opacity: 0 !important;
+  }
+
+  @keyframes background-loading-gradient {
+    0% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 0%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    10% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 5%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    20% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 10%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    30% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 20%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    40% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 30%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    50% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 50%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    60% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 60%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    70% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 70%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    80% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 80%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    90% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 90%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+
+    100% {
+      background: linear-gradient(
+        127deg,
+        var(--color-mgrey-300) 0%,
+        var(--color-mgrey-200) 100%,
+        var(--color-mgrey-300) 100%
+      );
+    }
+  }
