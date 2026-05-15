@@ -2,6 +2,10 @@
   <div class="display-container">
     <h1 class="heading-lg">WLTH CSS Reference</h1>
     <h2 class="heading-md">A companion to the standalone WLTH CSS file</h2>
+    <div class="">
+      <p class="body">Here is a static link to the CSS file of this project</p>
+      <a href="/css/export.css" class="link" target="_blank">View CSS File</a>
+    </div>
     <feature 
     title="Large Page Headers"
     :classes="['.text-3xl', '.heading-lg']">
