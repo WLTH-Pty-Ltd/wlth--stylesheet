@@ -2,10 +2,51 @@
   <div class="display-container">
     <h1 class="heading-lg">WLTH CSS Reference</h1>
     <h2 class="heading-md">A companion to the standalone WLTH CSS file</h2>
-    <div class="">
-      <p class="body">Here is a static link to the CSS file of this project</p>
-      <a href="/css/export.css" class="link" target="_blank">View CSS File</a>
+    <div style="display: flex; flex-flow: column nowrap;">
+      <p class="body-sm">This is a pseudo legacy document detailing specific WLTH stylings in vanilla CSS.</p>
+      <p class="body-sm">Most of our development currently is built on Tailwind 5, so for any standards not featured on this page, assume <nuxt-link to="https://v2.tailwindcss.com/docs/padding" external target="_blank" class="inline-link">tailwind defaults</nuxt-link> are safe. </p>
+      <br />
+      <div class="" style="display:flex; flex-flow: column nowrap; gap: 1rem">
+        <p class="body-sm">Here is a static link to a combined CSS file of this project</p>
+        <a href="/css/export.css" class="link" target="_blank">View CSS File</a>
+        <p class="body-sm">Alternatively you can check the whole repo on Github:</p>
+        <a href="https://github.com/WLTH-Pty-Ltd/wlth--stylesheet" class="link" target="_blank">wlth--stylesheet</a>
+      </div>
     </div>
+    <feature 
+    title="WLTH Logos"
+    preamble="WLTH Marque Logo"
+    :classes="['-']">
+      <template #example>
+        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="92.242" viewBox="0 0 130 92.242" class="logo-marque" data-v-085b2cef=""><g transform="translate(-525.32 -215.912)"><path d="M1227.049,215.912l-19.062,60.035h13.792l19.062-60.035Z" transform="translate(-585.521)" fill="#1F232D"></path><path d="M926.9,215.912l29.3,92.242H970l-29.3-92.242Z" transform="translate(-344.441)" fill="#1F232D"></path><path d="M560.48,283.184l-21.369-67.272H525.32l29.3,92.242H566.34L585.4,248.145H571.61Z" fill="#1F232D"></path></g></svg>
+        <br /><br />
+        <a href="/assets/logos/wlth-marque.svg" class="link" target="_blank">Open link to SVG</a>
+      </template>
+      <template #code>
+        <span>
+          {{ `
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="92.242" viewBox="0 0 130 92.242" class="logo-marque" data-v-085b2cef=""><g transform="translate(-525.32 -215.912)"><path d="M1227.049,215.912l-19.062,60.035h13.792l19.062-60.035Z" transform="translate(-585.521)" fill="#1F232D"></path><path d="M926.9,215.912l29.3,92.242H970l-29.3-92.242Z" transform="translate(-344.441)" fill="#1F232D"></path><path d="M560.48,283.184l-21.369-67.272H525.32l29.3,92.242H566.34L585.4,248.145H571.61Z" fill="#1F232D"></path></g></svg>
+          ` }}
+        </span>
+      </template>
+    </feature>
+    <feature 
+    title="WLTH Logos"
+    preamble="WLTH Logotype Logo"
+    :classes="['-']">
+      <template #example>
+        <svg xmlns="http://www.w3.org/2000/svg" width="105.816" height="24.444" viewBox="0 0 105.816 24.444" class="logo-type" data-v-085b2cef=""><g id="Group_5140" data-name="Group 5140" transform="translate(-107 -14412.302)"><g id="Group_4346" data-name="Group 4346" transform="translate(-242.551 14264.611)"><path id="Path_12015" data-name="Path 12015" d="M384.77,147.854l-7.009,24.409H373.4l-6.311-21.271-6.416,21.271h-4.428l-6.7-24.409h3.731l5.23,20.678,6.241-20.678h4.673l6.137,20.643,5.474-20.643Z" transform="translate(0 -0.128)" fill="#292e3a"></path> <path id="Path_12016" data-name="Path 12016" d="M557.5,169.02v3.243H539.751V147.854h3.487V169.02Z" transform="translate(-149.284 -0.128)" fill="#292e3a"></path> <g id="Group_3826" data-name="Group 3826" transform="translate(406.559 147.691)"><path id="Path_12017" data-name="Path 12017" d="M636.237,150.992h-9.062v21.271h-3.452V150.992h-9.167v-3.138h21.681Z" transform="translate(-614.556 -147.819)" fill="#292e3a"></path> <path id="Path_12018" data-name="Path 12018" d="M760.526,147.691v24.444h-3.487V161.256h-15.2v10.879h-3.487V147.691h3.487v10.391h15.2V147.691Z" transform="translate(-711.718 -147.691)" fill="#292e3a"></path></g></g></g></svg>
+        <br /><br />
+        <a href="/assets/logos/wlth-logotype.svg" class="link" target="_blank">Open link to SVG</a>
+      </template>
+      <template #code>
+        <span>
+          {{ `
+<svg xmlns="http://www.w3.org/2000/svg" width="105.816" height="24.444" viewBox="0 0 105.816 24.444" class="logo-type" data-v-085b2cef=""><g id="Group_5140" data-name="Group 5140" transform="translate(-107 -14412.302)"><g id="Group_4346" data-name="Group 4346" transform="translate(-242.551 14264.611)"><path id="Path_12015" data-name="Path 12015" d="M384.77,147.854l-7.009,24.409H373.4l-6.311-21.271-6.416,21.271h-4.428l-6.7-24.409h3.731l5.23,20.678,6.241-20.678h4.673l6.137,20.643,5.474-20.643Z" transform="translate(0 -0.128)" fill="#292e3a"></path> <path id="Path_12016" data-name="Path 12016" d="M557.5,169.02v3.243H539.751V147.854h3.487V169.02Z" transform="translate(-149.284 -0.128)" fill="#292e3a"></path> <g id="Group_3826" data-name="Group 3826" transform="translate(406.559 147.691)"><path id="Path_12017" data-name="Path 12017" d="M636.237,150.992h-9.062v21.271h-3.452V150.992h-9.167v-3.138h21.681Z" transform="translate(-614.556 -147.819)" fill="#292e3a"></path> <path id="Path_12018" data-name="Path 12018" d="M760.526,147.691v24.444h-3.487V161.256h-15.2v10.879h-3.487V147.691h3.487v10.391h15.2V147.691Z" transform="translate(-711.718 -147.691)" fill="#292e3a"></path></g></g></g></svg>
+          ` }}
+        </span>
+      </template>
+    </feature>
     <feature 
     title="Large Page Headers"
     :classes="['.text-3xl', '.heading-lg']">
@@ -1084,14 +1125,6 @@ style="
 ` }}
       </template>
     </feature>
-    <feature
-    title="Blank"
-    preamble="Preamble"
-    :classes="['.text-3xl', '.heading-lg']">
-      <template #example>hello world</template>
-      <template #code>{{ `code` }}</template>
-      <template #declaration>{{ `declaration` }}</template>
-    </feature>
   </div>
 </template>
 
@@ -1105,7 +1138,17 @@ style="
   flex-flow: column nowrap;
   gap: 4rem;
   max-width: 99dvw;
-  outline: 1px solid #000;
   padding: 4rem;
+}
+
+code {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.4rem;
+    width: fit-content;
+    background-color: var(--color-background-tertiary);
+    padding: 1rem;
+    border-radius: 14px;
+    text-wrap-mode: wrap;
 }
 </style>

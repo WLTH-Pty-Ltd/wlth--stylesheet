@@ -17,6 +17,7 @@ body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
 
 /* Set core body defaults */
 body {
+    background-color: var(--color-background);
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
@@ -700,5 +701,5 @@ ol[class], ul[class] {
 
 .btn.outline:hover {
     color: var(--color-white);
-    background: var(--color-mgrey-400)
+    background: var(--color-mgrey-400);
 }

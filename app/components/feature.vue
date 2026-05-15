@@ -58,7 +58,7 @@ const props = defineProps<FeatureProps>();
 
 .example {
     padding: 1rem;
-    border: 1px solid var(--color-border-base);
+    border: 1px solid var(--color-border-secondary);
 }
 
 pre {
