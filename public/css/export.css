@@ -659,8 +659,9 @@ ol[class], ul[class] {
 
 #greenid-container ul {
     list-style-position: inside;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    padding-bottom: 3rem;
 }
 
 #greenid-container > nav {
@@ -668,7 +669,7 @@ ol[class], ul[class] {
 }
 
 
-#greenid-so-process-overview-button.btn, .btn-primary {
+#greenid-so-process-overview-button.btn, .btn-primary, #fileuploadBtn, #greenid-biometric-content .greenid-so-content #greenid-container #webscanRoot .button.button--secondary {
     transition: color .3s ease-out,border-color .3s ease-out,background .3s ease-out;
     font-family: var(--font-mono);
     letter-spacing: .1em;
@@ -693,7 +694,7 @@ ol[class], ul[class] {
     width: fit-content;
 }
 
-#greenid-so-process-overview-button.btn:hover, .btn-primary:hover {
+#greenid-so-process-overview-button.btn:hover, .btn-primary:hover, #fileuploadBtn:hover, #greenid-biometric-content .greenid-so-content #greenid-container #webscanRoot .button.button--secondary:hover {
     color: var(--color-turq-base) !important;
 }
 
@@ -769,18 +770,15 @@ ol[class], ul[class] {
     line-height: 1.4;
 }
 
-@media (max-width: 414px) {
-    #greenid-hosted-logo {
-        padding-bottom: 20px;
-    }
+#greenid-container > div:nth-child(3) > span > h1 > strong {
+    color: var(--color-rblue)
+}
 
-    #greenid-hosted-logo img {
-        max-height: 1.87rem;
-    }
-
+@media (max-width: 800px) {
     #greenid-container ul {
         list-style-position: inside;
-        padding-left: 1.26rem;
-        padding-right: 1.26rem;
+        padding-left: 2.24rem;
+        padding-right: 2.24rem;
+        padding-bottom: 2rem;
     }
 }
