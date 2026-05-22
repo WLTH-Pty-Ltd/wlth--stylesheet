@@ -647,7 +647,28 @@ ol[class], ul[class] {
     }
 }
 
-.btn {
+/* Green ID Custom */
+
+#greenid-hosted-logo {
+    padding-bottom: 30px;
+}
+
+#greenid-hosted-logo img {
+    max-height: 20px;
+}
+
+#greenid-container ul {
+    list-style-position: inside;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#greenid-container > nav {
+    padding: 20px 1.15rem;
+}
+
+
+#greenid-so-process-overview-button.btn {
     transition: color .3s ease-out,border-color .3s ease-out,background .3s ease-out;
     font-family: var(--font-mono);
     letter-spacing: .1em;
@@ -672,11 +693,11 @@ ol[class], ul[class] {
     width: fit-content;
 }
 
-.btn:hover {
+#greenid-so-process-overview-button.btn:hover {
     color: var(--color-turq-base)
 }
 
-.btn.outline {
+#greenid-so-process-overview-button.btn.outline {
     transition: color .3s ease-out,border-color .3s ease-out,background .3s ease-out;
     font-family: var(--font-mono);
     letter-spacing: .1em;
@@ -699,7 +720,23 @@ ol[class], ul[class] {
     color: var(--color-text-base);
 }
 
-.btn.outline:hover {
+#greenid-so-process-overview-button.btn.outline:hover {
     color: var(--color-white);
     background: var(--color-mgrey-400);
+}
+
+@media (max-width: 414px) {
+    #greenid-hosted-logo {
+        padding-bottom: 20px;
+    }
+
+    #greenid-hosted-logo img {
+        max-height: 1.87rem;
+    }
+
+    #greenid-container ul {
+        list-style-position: inside;
+        padding-left: 1.26rem;
+        padding-right: 1.26rem;
+    }
 }
